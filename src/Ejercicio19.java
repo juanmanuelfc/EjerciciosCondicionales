@@ -17,9 +17,10 @@ public class Ejercicio19 {
         }
         //Sino... (nota media menor que 5)
         else {
+            Scanner consola1 = new Scanner(System.in);
             System.out.print("Resultado de la recuperacion? (apto/no apto): ");
             //Crearemos la variable recuperacion de tipo string para solo poner apto o no apto
-            String recuperacion = consola.nextLine();
+            String recuperacion = consola1.nextLine();
             //Si el string de recuperacion es igual a apto...
             if (recuperacion.equals("apto")){
                 System.out.println("La nota de programacion es: " + 5);

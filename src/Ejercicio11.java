@@ -9,6 +9,6 @@ public class Ejercicio11 {
 
         int horaRestante = 24 - hora;
         int minutoRestante = 60 - minuto;
-        System.out.println("Quedan " + (horaRestante - 1) + "h y " + minutoRestante + "min para medianoche.");
+        System.out.println("Quedan " + ((horaRestante - 1) * 60 * 60) + (minutoRestante * 60) + "seg para medianoche.");
     }
 }
